@@ -72,5 +72,35 @@ Quand on fait git log --oneline :
 d47845c bouton toggle
 abfbc37 ajout d'une barre de menu
 9b26718 ajout de boostrap css
-# sur github la version disponible est celle-ci
+c12861a (origin/main) config git # sur github la version disponible est celle-ci
 '''
+
+Cas pratique : Pouvez-vous revenir dans le passé :
+
+'''sh
+git status
+git add .
+git commit -m"validation"
+git log --oneline
+git checkout hash => aller dans le passé
+git checkout main => revenir dans le présent
+'''
+
+# Normer les descriptions dans les commits
+
+/!\ Ce n'est pas obligatoire
+MAIS ça permet de mieux s'y retrouver dans les commits => respecter la règle suivante : 
+
+git add . 
+git commit -m"type(portée description)" 
+-le type => le type de code que je suis en train de réaliser 
+            - fix => correctif
+            - feat => fonctionnalité (ajouter une nouvelle fonctionnalité)
+            - hotfix => correctif critique (en production)
+            - docs => documentation / explication 
+            - refactor => réorganisation du code
+
+La portée : Quelle est la portée du commit => global / page index.html etc...
+
+description : git add .
+              git commit -m"docs(global) comment nommer les commits"
