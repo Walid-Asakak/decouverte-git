@@ -14,3 +14,8 @@ Exemple : C:\Users\walid.asakak\Desktop\git\.git => affiche le dossier caché .g
 
 - Si on veut récupérer un projet disponible sur github :
 - git clone <adresse internet du dépôt>
+
+
+# Ajouter une version : 
+
+- On fait ' git add . ' PUIS on réalise ' git commit -m"explication des modifications apportées" '
