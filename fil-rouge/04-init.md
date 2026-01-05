@@ -21,3 +21,5 @@ Exemple : C:\Users\walid.asakak\Desktop\git\.git => affiche le dossier caché .g
 - On fait ' git add . ' PUIS on réalise ' git commit -m"explication des modifications apportées" '
 
 -On peut changer le nom de la branch principale du projet en utilisant : git branch -M main
+
+-La commande 'gitk' (fonctionne uniquement sur windows) permet d'avoir accès à toutes les modifications apportées et commits effectués, comme un HISTORIQUE
