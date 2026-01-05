@@ -57,3 +57,20 @@ nothing to commit, working tree clean =>
 git commit -a -m "modification ..." 
 '''
 
+# Visualiser les commits :
+
+- gitk
+- git log (Appuyer sur la touche Enter => passer à la suite & appuyer sur la touche q pour sortir)
+- git log --oneline
+
+Quand on fait git log --oneline : 
+'''txt
+06da6d7 (HEAD -> main) toggle btn home (où je suis en train de regarder actuellement)
+6a763bd modification ...
+8696540 ajout d'un footer
+4615dd0 ajouter des classes pour le  bouton
+d47845c bouton toggle
+abfbc37 ajout d'une barre de menu
+9b26718 ajout de boostrap css
+# sur github la version disponible est celle-ci
+'''
