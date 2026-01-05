@@ -102,5 +102,22 @@ git commit -m"type(portée description)"
 
 La portée : Quelle est la portée du commit => global / page index.html etc...
 
-description : git add .
+Exemple complet : git add .
               git commit -m"docs(global) comment nommer les commits"
+
+
+# Petite synthèse :
+git init // créer le repository local
+git add . => A prioriser
+git add -A 
+git add --all
+git commit -m"ajouter une version incrémentable dans le repository"
+
+git commit -a -m"ajouter une version incrémentable dans le repository SSI le fichier est déjà connu dans le repository"
+git statis => Connaître l'état de chaque fichier par rapport au repo local
+gitk => Visualiser l'ensemble des commits
+git log => History des commits
+git log --oneline => Version compacte de l'historique
+git checkout id_ancien_commit => Revenir dans le passé
+git checkout main => Revenir dans le présent 
+git branch -M main => Renommer une branch
