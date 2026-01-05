@@ -36,3 +36,24 @@ git add .
 git add -A
 git add --all 
 '''
+
+'''sh
+git status 
+
+git commit -m"ajout d'un footer"
+'''
+
+'''sh
+git status 
+
+nothing to commit, working tree clean => 
+'''
+
+# Il est possible de fusionner les deux commandes git add et git commit
+
+/!!\ Attention cette commande ne fonctionne QUE pour les fichiers qui ont déjà été au moins une fois add :
+
+'''sh
+git commit -a -m "modification ..." 
+'''
+
